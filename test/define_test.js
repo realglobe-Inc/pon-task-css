@@ -41,12 +41,11 @@ describe('define', function () {
     let src = srcDir + '/foo.pcss'
     yield writeout(src, ':root { --red: #d33; } a { &:hover { color: color(var(--red) a(54%)); } }', { mkdirp: true })
     yield asleep(100)
-    let close = yield define(srcDir, destDir, { watchDelay: 1 }).watch(ctx)
+    define(srcDir, destDir, { watchDelay: 1 }).watch(ctx)
     yield writeout(src, ':root { --red: #dd1; } a { &:hover { color: color(var(--red) a(54%)); } }', { mkdirp: true })
     yield asleep(200)
     yield writeout(src, ':root { --red: #5FF; } a { &:hover { color: color(var(--red) a(54%)); } }', { mkdirp: true })
     yield asleep(200)
-    yield close()
   }))
 })
 
