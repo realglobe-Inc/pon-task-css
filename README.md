@@ -79,10 +79,12 @@ const ponTaskCss = require('pon-task-css')
 
 async function tryExample () {
   let run = pon({
-    myTask01: ponTaskCss()
+    css: ponTaskCss('ui/stylesheets', 'pubic/css', {
+      pattern: [ '*.css' ]
+    })
   })
 
-  run('myTask01')
+  run('css')
 }
 
 tryExample()
@@ -112,6 +114,10 @@ This software is released under the [Apache-2.0 License](https://github.com/real
 Links
 ------
 
++ [Pon][pon_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
+[pon_url]: https://github.com/realglobe-Inc/pon
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->
