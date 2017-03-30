@@ -1,0 +1,59 @@
+{
+  "name": "pon-task-css",
+  "version": "1.0.0",
+  "description": "Pon task to compile css",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "test": "node ./ci/test.js"
+  },
+  "repository": "realglobe-Inc/pon-task-css",
+  "keywords": [
+    "Pon"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/pon-task-css/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/pon-task-css#readme",
+  "dependencies": {
+    "aglob": "^2.0.1",
+    "asfs": "^1.2.3",
+    "autoprefixer": "^6.7.7",
+    "co": "^4.6.0",
+    "postcss": "^5.2.16",
+    "postcss-cssnext": "^2.10.0",
+    "writeout": "^2.1.0"
+  },
+  "devDependencies": {
+    "ababel": "^2.0.1",
+    "ababel-es2015": "^2.0.1",
+    "amocha": "^2.0.0",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.1.0",
+    "colorprint": "^4.1.0",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "pon-context": "^1.1.2",
+    "pon-doc": "^1.0.1",
+    "sg-templates": "^1.4.4",
+    "sugos-travis": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  },
+  "publishConfig": {
+    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+  }
+}
