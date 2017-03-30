@@ -27,9 +27,9 @@
     "asfs": "^1.2.3",
     "autoprefixer": "^6.7.7",
     "co": "^4.6.0",
+    "pon-writer": "^1.0.1",
     "postcss": "^5.2.16",
-    "postcss-cssnext": "^2.10.0",
-    "writeout": "^2.1.0"
+    "postcss-cssnext": "^2.10.0"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -46,6 +46,7 @@
     "injectmock": "^2.0.0",
     "pon-context": "^1.1.2",
     "pon-doc": "^1.0.1",
+    "writeout": "^2.1.0",
     "sg-templates": "^1.4.4",
     "sugos-travis": "^2.0.7"
   },
