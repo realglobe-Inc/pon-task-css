@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Pon task to compile css",
   "main": "lib",
   "browser": "shim/browser",
