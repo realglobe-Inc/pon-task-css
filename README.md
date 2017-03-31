@@ -94,6 +94,31 @@ tryExample()
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Signature.md.hbs" Start -->
+
+<a name="section-doc-guides-03-signature-md"></a>
+
+Signatures
+---------
+
+
+### `define(srcDir, destDir, options) -> function`
+
+Define task to compile css files
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| srcDir | string |  Source directory name |
+| destDir | string |  Destination directory name |
+| options | Object |  Optional settings |
+| options.pattern | string&#124;string[] |  File name pattern |
+| options.plugins | function[] |  PostCSS plugins |
+| options.watchDelay | number |  Delay after watch |
+
+
+
+<!-- Section from "doc/guides/03.Signature.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
