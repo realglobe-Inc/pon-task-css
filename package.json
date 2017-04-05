@@ -23,11 +23,9 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-css#readme",
   "dependencies": {
-    "aglob": "^2.0.1",
     "autoprefixer": "^6.7.7",
     "co": "^4.6.0",
-    "pon-task-compile": "^1.0.3",
-    "pon-task-watch": "^1.0.1",
+    "pon-task-compile": "^1.1.1",
     "postcss": "^5.2.16",
     "postcss-cssnext": "^2.10.0"
   },
