@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Pon task to compile css",
   "main": "lib",
   "browser": "shim/browser",
@@ -25,8 +25,8 @@
   "dependencies": {
     "autoprefixer": "^6.7.7",
     "co": "^4.6.0",
-    "pon-task-compile": "^1.1.1",
-    "postcss": "^5.2.16",
+    "pon-task-compile": "^2.0.1",
+    "postcss": "^5.2.17",
     "postcss-cssnext": "^2.10.0"
   },
   "devDependencies": {
@@ -43,16 +43,13 @@
     "colorprint": "^4.1.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
-    "pon-context": "^1.1.4",
-    "pon-doc": "^1.0.1",
+    "pon-context": "^2.0.1",
+    "pon-doc": "^2.0.1",
     "sugos-travis": "^2.0.7",
     "writeout": "^2.1.0"
   },
   "engines": {
     "node": ">=6",
     "npm": ">=4"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
   }
 }
