@@ -25,7 +25,7 @@
   "dependencies": {
     "autoprefixer": "^7.1.4",
     "pon-cache": "^1.0.1",
-    "pon-task-compile": "^2.1.5",
+    "pon-task-compile": "^3.0.1",
     "postcss": "^6.0.11",
     "postcss-cssnext": "^3.0.2"
   },
