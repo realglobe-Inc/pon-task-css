@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-css#readme",
   "dependencies": {
-    "autoprefixer": "^7.1.5",
+    "autoprefixer": "^7.1.6",
     "pon-cache": "^1.0.1",
     "pon-task-compile": "^3.0.1",
     "postcss": "^6.0.13",
     "postcss-cssnext": "^3.0.2"
   },
   "devDependencies": {
-    "ababel": "^2.0.2",
+    "ababel": "^2.0.3",
     "ababel-es2015": "^2.0.2",
     "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
@@ -42,7 +42,7 @@
     "asleep": "^1.0.3",
     "colorprint": "^4.1.0",
     "coz": "^6.0.20",
-    "eslint": "^4.8.0",
+    "eslint": "^4.9.0",
     "injectmock": "^2.0.0",
     "pon-context": "^2.0.2",
     "pon-doc": "^2.0.1",
