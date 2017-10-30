@@ -4,30 +4,30 @@
 
 'use strict'
 
-const { readmeMdBud } = require('ape-tmpl')
+const {readmeMdBud} = require('ape-tmpl')
 const pkg = require('./package.json')
-const { functionComments } = require('pon-doc')
+const {functionComments} = require('pon-doc')
 const aglob = require('aglob')
 
 module.exports = readmeMdBud({
-    pkg,
-    repo: pkg.repository,
-    sections: 'doc/guides/*.md.hbs',
-    badges: {
-      travis: true,
-      npm: true,
-      standard: true
-    },
-    overview: 'doc/overview.md',
-    links: require('./doc/links'),
-    vars: {
-      funcs: aglob.sync('lib/*.js')
-        .filter((filename) => !/index\.js$/.test(filename))
-    .map((filename) => {
-    let comments = functionComments(filename)
-    return comments && comments[ 0 ]
-  })
-}
+  pkg,
+  repo: pkg.repository,
+  sections: 'doc/guides/*.md.hbs',
+  badges: {
+    travis: true,
+    npm: true,
+    standard: true
+  },
+  overview: 'doc/overview.md',
+  links: require('./doc/links'),
+  vars: {
+    funcs: aglob.sync('lib/*.js')
+      .filter((filename) => !/index\.js$/.test(filename))
+      .map((filename) => {
+        let comments = functionComments(filename)
+        return comments && comments[0]
+      })
+  }
 })
 
 if (!module.parent) {

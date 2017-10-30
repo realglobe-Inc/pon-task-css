@@ -116,6 +116,16 @@ Define task to compile css files
 | options.watchDelay | number |  Delay after watch |
 
 
+### `minify(src, dest) -> function`
+
+Define task to minify css files
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| src | string&#124;string[] |  Source file names |
+| dest | string |  Destination file name |
+
+
 
 <!-- Section from "doc/guides/03.Signature.md.hbs" End -->
 

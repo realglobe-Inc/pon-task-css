@@ -40,11 +40,12 @@ describe('define', function () {
     let src = srcDir + '/foo.pcss'
     await writeout(src, ':root { --red: #d33; } a { &:hover { color: color(var(--red) a(54%)); } }', {mkdirp: true})
     await asleep(100)
-    define(srcDir, destDir, {watchDelay: 1}).watch(ctx)
+    const close = await define(srcDir, destDir, {watchDelay: 1}).watch(ctx)
     await writeout(src, ':root { --red: #dd1; } a { &:hover { color: color(var(--red) a(54%)); } }', {mkdirp: true})
     await asleep(200)
     await writeout(src, ':root { --red: #5FF; } a { &:hover { color: color(var(--red) a(54%)); } }', {mkdirp: true})
     await asleep(200)
+    close()
   })
 })
 
