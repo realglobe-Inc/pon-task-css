@@ -27,7 +27,9 @@ describe('define', function () {
       `${__dirname}/../misc/mocks`,
       `${__dirname}/../tmp/testing-compiled`,
       {
-        modules: true
+        modules: true,
+        autoprefix: true,
+        ext: '.css'
       }
     )
     ok(task)
