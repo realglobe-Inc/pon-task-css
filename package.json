@@ -25,7 +25,6 @@
   "dependencies": {
     "adigest": "^3.0.0",
     "asfs": "^2.0.1",
-    "autoprefixer": "^7.1.6",
     "clean-css": "^4.1.9",
     "pon-cache": "^1.0.1",
     "pon-task-compile": "^3.0.3",

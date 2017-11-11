@@ -28,7 +28,6 @@ describe('define', function () {
       `${__dirname}/../tmp/testing-compiled`,
       {
         modules: true,
-        autoprefix: true,
         ext: '.css'
       }
     )
