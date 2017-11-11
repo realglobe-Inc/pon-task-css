@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "4.1.2",
+  "version": "5.0.0",
   "description": "Pon task to compile css",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,13 +23,15 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-css#readme",
   "dependencies": {
+    "adigest": "^3.0.0",
     "asfs": "^2.0.1",
     "autoprefixer": "^7.1.6",
     "clean-css": "^4.1.9",
     "pon-cache": "^1.0.1",
     "pon-task-compile": "^3.0.3",
-    "postcss": "^6.0.13",
-    "postcss-cssnext": "^3.0.2"
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-modules": "^1.1.0"
   },
   "devDependencies": {
     "ababel": "^2.0.3",
@@ -44,7 +46,7 @@
     "asleep": "^1.0.3",
     "colorprint": "^4.1.0",
     "coz": "^6.0.20",
-    "eslint": "*",
+    "eslint": "^4.11.0",
     "injectmock": "^2.0.0",
     "pon-context": "^2.0.2",
     "pon-doc": "^2.0.1",

@@ -26,7 +26,9 @@ describe('define', function () {
     let task = define(
       `${__dirname}/../misc/mocks`,
       `${__dirname}/../tmp/testing-compiled`,
-      {}
+      {
+        modules: true
+      }
     )
     ok(task)
 
@@ -34,10 +36,10 @@ describe('define', function () {
   })
 
   it('Watch', async () => {
-    let ctx = ponContext({})
-    let srcDir = `${__dirname}/../tmp/testing-watching/src`
-    let destDir = `${__dirname}/../tmp/testing-watching/dest`
-    let src = srcDir + '/foo.pcss'
+    const ctx = ponContext({})
+    const srcDir = `${__dirname}/../tmp/testing-watching/src`
+    const destDir = `${__dirname}/../tmp/testing-watching/dest`
+    const src = srcDir + '/foo.pcss'
     await writeout(src, ':root { --red: #d33; } a { &:hover { color: color(var(--red) a(54%)); } }', {mkdirp: true})
     await asleep(100)
     const close = await define(srcDir, destDir, {watchDelay: 1}).watch(ctx)
