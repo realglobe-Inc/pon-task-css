@@ -12,7 +12,7 @@ script:
 - "./ci/shim.js"
 - "./ci/test.js"
 after_success:
-- "./ci/travis/publish.js"
+- publish-if-needed
 env:
   global:
     secure: ZLOnLYNYWzG2vSW6GAcKFvV2eXvubKyOM+shPU8z9ixq/rTqZo9kDBTcSaKLWL3pfLAOwC7YBKWfcAgXKPj5E902FaT/dj+bKL1Ecbu2vYokU/QrB49/C54LtnLd510fHZVG+G7ZUVZCpUbzZGvD1KrdxpUWaIqlqA+TYZumxz1w8D+tf0sa/URrrWy3oj6CfaWP/81XbKLW6WRqBZB1eyF90ijzuX4EkaNF4CPvqbrbXszNOnmj4OSMTzpgrwMg9+FUuPRa0Ooxl3iJDdAJQgQF2b7RVcDH38RhPEVwvcpe+9L9KuNt710CZk6SdrethL9rWrB8pe4BQtMP5Iz8nDZoVKOtxDkoKUq3NKybKZ2OM86Bi1z4WJeE0OpTrqfVi0ojFHH66uTe9kIqUmuPuYX5F1XwstqsRlFuEyrUw73zj8jSad0Xzu27Wz+Vlp09lxN2hRrxJTMrpAYO1ijyod1OGg3odEbt3unaqaQqBbTGICS83UhxNh0e6ma6k4LpxNcudIJr66ck2IPwY4PJ4Jw6dLbNK/0pdtyIuMDf1/JTPS63HhGfp30tETjIhbZiXlLZ5+QqJFBeYWiDSBqg1DWaeaygrqwzcZ6dMkwvgw559GREW5WtqNo+nQpqR7Q0Xa+q0pHy0lBvBr04uVNZoslcU/76+DG0xlCbU5Mb9rY=
