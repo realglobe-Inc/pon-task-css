@@ -22,12 +22,29 @@ describe('define', function () {
   })
 
   it('Define', async () => {
-    let ctx = ponContext({})
-    let task = define(
+    const ctx = ponContext({})
+    const task = define(
       `${__dirname}/../misc/mocks`,
       `${__dirname}/../tmp/testing-compiled`,
       {
+        pattern: '*.pcss',
         modules: true,
+        ext: '.css'
+      }
+    )
+    ok(task)
+
+    await Promise.resolve(task(ctx))
+  })
+
+  it('bundle', async () => {
+    const ctx = ponContext({})
+    const task = define(
+      `${__dirname}/../misc/mocks/bundle`,
+      `${__dirname}/../tmp/testing-bundle`,
+      {
+        pattern: '*.pcss',
+        modules: false,
         ext: '.css'
       }
     )
