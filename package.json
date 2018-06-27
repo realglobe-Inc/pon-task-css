@@ -31,6 +31,7 @@
     "pon-task-compile": "^4.0.0",
     "pon-task-fs": "^3.1.6",
     "postcss": "^6.0.23",
+    "postcss-cssnext": "^3.1.0",
     "postcss-modules": "^1.1.0",
     "postcss-preset-env": "^5.2.1"
   },
