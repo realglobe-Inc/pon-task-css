@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Pon task to compile css",
   "main": "lib",
   "browser": "shim/browser",
@@ -25,14 +25,14 @@
   "dependencies": {
     "adigest": "^3.0.0",
     "asfs": "^2.0.3",
-    "autoprefixer": "^8.6.3",
+    "autoprefixer": "^8.6.4",
     "clean-css": "^4.1.11",
     "pon-cache": "^1.0.1",
-    "pon-task-compile": "^3.0.4",
-    "pon-task-fs": "^3.1.5",
+    "pon-task-compile": "^4.0.0",
+    "pon-task-fs": "^3.1.6",
     "postcss": "^6.0.23",
     "postcss-modules": "^1.1.0",
-    "postcss-preset-env": "^5.2.0"
+    "postcss-preset-env": "^5.2.1"
   },
   "devDependencies": {
     "ababel": "^4.0.9",
