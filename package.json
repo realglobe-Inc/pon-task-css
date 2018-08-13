@@ -36,7 +36,7 @@
     "postcss-preset-env": "^5.3.0"
   },
   "devDependencies": {
-    "ababel": "^4.0.9",
+    "ababel": "^5.0.3",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
