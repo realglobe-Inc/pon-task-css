@@ -33,7 +33,7 @@
     "postcss": "^7.0.5",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-modules": "^1.4.1",
-    "postcss-preset-env": "^6.2.0"
+    "postcss-preset-env": "^6.3.0"
   },
   "devDependencies": {
     "ababel": "^5.0.6",
