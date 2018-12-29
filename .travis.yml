@@ -5,7 +5,6 @@ before_install:
 - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
 - npm install jsdoc publish-if-needed npm@latest -g
 install:
-- npm install jsdoc -g
 - npm install
 script:
 - "./ci/build.js"
