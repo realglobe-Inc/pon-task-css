@@ -25,13 +25,12 @@
   "dependencies": {
     "adigest": "^3.0.1",
     "asfs": "^2.2.1",
-    "autoprefixer": "^9.4.8",
+    "autoprefixer": "^9.4.9",
     "clean-css": "^4.2.1",
     "pon-cache": "^1.0.2",
     "pon-task-compile": "^4.0.5",
     "pon-task-fs": "^3.1.8",
     "postcss": "^7.0.14",
-    "postcss-csso": "^3.0.0",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-modules": "^1.4.1",
     "postcss-preset-env": "^6.5.0"
