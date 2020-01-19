@@ -116,7 +116,7 @@ Define task to compile css files
 | options.watchDelay | number |  Delay after watch |
 
 
-### `minify(src, dest) -> function`
+### `minify(src, dest, options) -> function`
 
 Define task to minify css files
 
@@ -124,6 +124,7 @@ Define task to minify css files
 | ---- | --- | ----------- |
 | src | string&#124;string[] |  Source file names |
 | dest | string |  Destination file name |
+| options | Object |  Optional settings |
 
 
 
