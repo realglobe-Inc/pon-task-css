@@ -1,11 +1,10 @@
 {
   "name": "pon-task-css",
-  "version": "8.1.1",
+  "version": "8.1.2",
   "description": "Pon task to compile css",
   "main": "lib",
-  "browser": "shim/browser",
   "scripts": {
-    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "prepare": "node ./ci/build.js",
     "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/pon-task-css",
