@@ -7,6 +7,7 @@ before_install:
 install:
 - npm install
 script:
+- mkdir tmp
 - "./ci/build.js"
 - "./ci/test.js"
 after_success:
