@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "8.2.0",
+  "version": "8.2.1",
   "description": "Pon task to compile css",
   "main": "lib",
   "scripts": {
