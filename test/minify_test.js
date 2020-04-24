@@ -1,5 +1,5 @@
 /**
- * Test case for minify.
+ * @file Test case for minify.
  * Runs with mocha.
  */
 'use strict'
