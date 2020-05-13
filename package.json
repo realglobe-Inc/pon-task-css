@@ -1,6 +1,6 @@
 {
   "name": "pon-task-css",
-  "version": "8.2.2",
+  "version": "8.2.3",
   "description": "Pon task to compile css",
   "main": "lib",
   "scripts": {
@@ -29,7 +29,7 @@
     "pon-cache": "^1.0.2",
     "pon-task-compile": "^5.0.0",
     "pon-task-fs": "^3.2.1",
-    "postcss": "^7.0.29",
+    "postcss": "^7.0.30",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-modules": "^2.0.0",
     "postcss-preset-env": "^6.7.0"
