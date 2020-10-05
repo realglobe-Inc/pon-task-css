@@ -32,7 +32,8 @@
     "postcss": "^8.0.3",
     "postcss-discard-duplicates": "^4.0.2",
     "postcss-modules": "^3.2.2",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^6.7.0",
+    "writeout": "^2.3.2"
   },
   "devDependencies": {
     "ababel": "^6.1.4",
@@ -49,8 +50,7 @@
     "eslint": "^7.9.0",
     "injectmock": "^2.0.0",
     "pon-context": "^3.0.2",
-    "pon-doc": "^3.0.1",
-    "writeout": "^2.3.2"
+    "pon-doc": "^3.0.1"
   },
   "engines": {
     "node": ">=12",
